@@ -1,0 +1,650 @@
+@font-face {
+    font-family: TaksMinistries Sans Bold;
+    src: url(../fonts/optima-cufonfonts/OPTIMA_B.TTF);
+}
+
+@font-face {
+    font-family: TaksMinistries fleixti;
+    src: url(../fonts/Felixti.TTF);
+}
+
+@font-face {
+    font-family: TaksMinistries Inkfree;
+    src: url(../fonts/Inkfree.ttf);
+}
+
+@font-face {
+    font-family: TaksMinistries Sans Normal;
+    src: url(../fonts/optima-cufonfonts/OPTIMA.TTF);
+}
+
+@font-face {
+    font-family: TaksMinistries Mons Semi;
+    src: url(../fonts/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: TaksMinistries Testimonial;
+    src: url(../fonts/Bahnschrift-Font-Family/BAHNSCHRIFT.TTF);
+}
+
+.testimonial p{
+    font-family: TaksMinistries Testimonial, sans-serif;
+    font-style: italic;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-family: TaksMinistries Sans Bold;
+}
+
+a:hover {
+    color: #000;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+header ul li {
+    list-style: none;
+    position: relative;
+}
+
+.ministry:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 1.5rem;
+    display: none;
+    background-color: #fcfcfc;
+    box-shadow: 0px 6px 5px 2px #ededed;
+    width: 12.8125rem;
+}
+
+#author {
+    padding: 150px 0;
+}
+
+.author-wrapper {
+    margin-top: 15rem;
+}
+
+.book-cover-wrapper {
+    position: relative;
+}
+
+.book-cover {
+    position: absolute;
+    z-index: 1;
+    top: -150px;
+    left: 30%;
+}
+
+.pic {
+    height: 90dvh;
+    background-image: url(../images/frontend/paula.png);
+    background-position: 50% 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 100px;
+    background-color: #212529;
+    color: #fff;
+}
+
+.books-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#book {
+    right: 20%;
+}
+
+.books {
+    height: 800px;
+    width: 1100px;
+}
+
+.books div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.front-cover {
+    background-image: url(../images/frontend/frontCoverFull.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.table-of-contents {
+    background-color: #fff;
+    padding: 20px;
+    border: solid 1px;
+}
+
+.intro-page {
+    padding: 20px;
+    background-color: #fcfcfc;
+    border: solid 1px;
+}
+
+.intro-page p {
+    font-size: 12px;
+}
+
+ol {
+    list-style: none;
+}
+
+.back-cover {
+    background-image: url(../images/frontend/frontCoverFull.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.dropdown li {
+    padding: 5px;
+}
+
+.banner-text {
+    padding: 0 24rem;
+    color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1296px;
+    height: 523.19px;
+    color: #fff;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#hub table {
+    margin: 1.5rem;
+}
+
+#hub table,
+#hub th,
+#hub td {
+    border: 1px solid black !important;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+.pre-mental li {
+    margin: 1rem 0;
+}
+
+.empowerment li {
+    margin: 1.25rem 0;
+}
+
+.fc-today {
+    color: #0a6469 !important;
+    background-color: #d0f2f4 !important;
+}
+
+.fade:not(.show) {
+    opacity: 1;
+}
+
+.Felixti {
+    font-family: TaksMinistries fleixti, sans-serif;
+}
+
+.inkFree {
+    font-family: TaksMinistries InkFree, sans-serif;
+    font-size: 1.5rem;
+}
+
+h1,
+h2 {
+    font-family: TaksMinistries Sans Bold, sans-serif;
+    font-size: 3.74rem;
+    text-align: center;
+    padding: 1.25rem 0;
+}
+
+h3 {
+    font-family: TaksMinistries Sans Bold, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1.25rem 0;
+}
+
+h4 {
+    font-family: TaksMinistries Sans Bold, sans-serif;
+    font-size: 1.875rem;
+    text-align: center;
+}
+
+h5 {
+    font-family: TaksMinistries Sans Bold, sans-serif;
+    font-size: 1.875rem;
+    padding: .5rem 0;
+}
+
+p {
+    font-size: 1.25rem;
+    font-family: TaksMinistries Sans Normal;
+}
+
+.head {
+    height: 20.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cat-head {
+    height: 31.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-task {
+    padding: 5px;
+    height: 36px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    border: #000;
+}
+
+.btn-task a {
+    color: #fff;
+}
+
+.btn-task a:hover {
+    color: #fff;
+}
+
+.span {
+    display: inline !important;
+}
+
+small {
+    font-family: TaksMinistries Mons Semi, sans-serif;
+    font-size: 12px;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+.card-text {
+    font-size: 15px;
+    font-family: TaksMinistries Sans Normal, sans-serif;
+}
+
+img.card-img-top {
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+
+.card-body {
+    background: #000;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.top {
+    position: absolute;
+    bottom: 12rem;
+    left: 7.1rem;
+}
+
+.body {
+    height: 256px;
+    width: 392.5px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(28, 89, 186, 1) 0%, rgba(39, 97, 189, 0) 100%);
+    border: 2px solid #1c59ba;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 3rem 0;
+}
+
+.browse-container {
+    width: 65rem;
+}
+
+.sidebar {
+    width: 15rem;
+    padding: 1.5rem;
+    position: sticky;
+    float: right;
+    top: 1rem;
+
+    margin-top: 2.5rem;
+    background-color: #b6b6b6;
+}
+
+#browse a {
+    color: #1c59ba;
+    text-decoration: underline;
+}
+
+#main-menu {
+    padding: .5rem;
+}
+
+#about .banner-text {
+    padding: 0 100px;
+    color: #000000;
+    position: absolute;
+    width: 82rem;
+}
+
+.browse-each {
+    background-color: #1c59ba;
+}
+
+.calendar-graphic {
+    width: 5rem;
+}
+
+.stripe-button-el span {
+    display: block;
+    position: static !important;
+    background-image: -webkit-linear-gradient(#000000, #000000 85%, #000000) !important;
+    background-image: -moz-linear-gradient(#000000, #000000 85%, #000000) !important;
+    background-image: -ms-linear-gradient(#000, #000 85%, #000) !important;
+    background-image: -o-linear-gradient(#000, #000 85%, #000);
+    background-image: -webkit-linear-gradient(#000, #000 85%, #000) !important;
+    background-image: -moz-linear-gradient(#000, #000 85%, #000) !important;
+    background-image: -ms-linear-gradient(#000, #000 85%, #000) !important;
+    background-image: -o-linear-gradient(#000, #000 85%, #000) !important;
+    background-image: linear-gradient(#000, #000 85%, #000) !important;
+    font-size: 16px !important;
+    font-weight: bold;
+    font-family: TaksMinistries Sans Bold, sans-serif !important;
+    text-shadow: none;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -ms-box-shadow: none !important;
+    -o-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+    padding: 5px !important;
+    height: 36px !important;
+    background: #000 !important;
+    border-radius: 5px !important;
+    border: #000 !important;
+}
+
+.fc-toolbar .fc-center h2 {
+    font-size: 2.5rem;
+}
+
+#conference ul {
+    display: none;
+}
+
+#conference h5 {
+    cursor: pointer;
+}
+
+#hub h3 {
+    padding: 1.25rem 0;
+}
+
+.courses-banner {
+    width: 1296px;
+    height: 523.19px;
+    text-align: center;
+}
+
+.month {
+    background-color: #a7241d;
+    background: -webkit-linear-gradient(#e75a57, #a7241d);
+    background: linear-gradient(#e75a57, #a7241d);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: #fff;
+    text-align: center;
+}
+
+.date {
+    border-top: 1px solid #e8e8e8;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background: #e8e8e8;
+    background: -webkit-linear-gradient(#c8c8c8, #e8e8e8 10%, #e8e8e8);
+    background: linear-gradient(#c8c8c8, #e8e8e8 10%, #e8e8e8);
+    color: #000;
+    text-align: center;
+    text-shadow: rgba(255, 255, 255, 0.8) 0 2px 0;
+    box-shadow: rgba(255, 255, 255, 0.75) 0 1px 3px;
+}
+
+.menu-extras {
+    display: none;
+}
+
+#enroll-form h5 {
+    cursor: pointer;
+}
+
+#enroll-form #file {
+    display: none;
+}
+
+#enroll-form #select {
+    display: none;
+}
+
+.ha-logo-wrapper {
+    padding: 0 10rem;
+}
+
+.fdorpdown {
+    display: none;
+}
+
+#fCheck:checked~.fdorpdown {
+    display: block;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+footer a {
+    background-color: #000;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+@media (max-width: 575.98px) {
+
+    h1,
+    h2 {
+        font-size: 1.35rem;
+        padding: 0;
+    }
+
+    h4 {
+        font-size: 30px;
+        padding: 1.25rem 0;
+    }
+
+    h3 {
+        font-size: 16px;
+        padding: 1.25rem 0;
+    }
+
+    p {
+        font-size: 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .banner-text {
+        padding: 0;
+    }
+
+    .banner-text h1 {
+        margin-top: 4.365rem !important;
+    }
+
+    .no-display {
+        display: none;
+    }
+
+    .browse-container {
+        width: 100%;
+    }
+
+    .categories {
+        top: 15rem;
+    }
+
+    .ha-logo-wrapper {
+        padding: 0 5rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .menu-extras {
+        display: block;
+        background-color: #ffffff;
+        color: #000;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1;
+        padding: 0.5rem;
+    }
+
+    h3 {
+        font-size: 24px;
+        padding: 1.25rem 0;
+    }
+
+    #menu-extra {
+        background-color: #ffffff;
+        position: fixed;
+        width: 100%;
+        top: 50px;
+        left: -100%;
+        transition: all 0.5s;
+    }
+
+    #menu-drop {
+        display: none;
+    }
+
+    #menu-drop a {
+        color: #ef2a03;
+    }
+
+    #check {
+        display: none;
+    }
+
+    #menu-extra {
+        display: block;
+        top: 84px;
+    }
+
+    .mob-dorpdown {
+        display: none;
+    }
+
+    #check:checked~#menu-extra {
+        left: 0;
+    }
+
+    #mCheck {
+        display: none;
+    }
+
+    #mCheck:checked~.mob-dorpdown {
+        display: block;
+    }
+
+    #main-menu {
+        display: none;
+    }
+
+    #book {
+        right: 25% !important;
+    }
+}
+
+@media (max-width: 998px) {
+    #hub h3 {
+        padding: 1.25rem 0;
+    }
+
+    h3 {
+        font-size: 24px;
+        padding: 1.25rem 0;
+    }
+
+    .head {
+        height: fit-content;
+        margin-top: 8rem;
+    }
+
+    #book {
+        right: 22%;
+    }
+
+    .books {
+        height: 300px;
+        width: 400px;
+    }
+
+    .book-cover {
+        position: static !important;
+        text-align: center;
+    }
+}
